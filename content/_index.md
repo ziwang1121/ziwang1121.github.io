@@ -52,7 +52,7 @@ sections:
     id: news
     content:
       title: Recent News
-      subtitle: 'test news subtitle'
+      subtitle: test news subtitle
       text: 'here is the text'
 
   - block: cta-card
