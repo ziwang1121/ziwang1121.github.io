@@ -43,9 +43,9 @@ tags:
 featured: False
 
 # Custom links (uncomment lines below)
- links:
- - name: Custom Link
-   url: https://ojs.aaai.org/index.php/AAAI/article/view/16467
+# links:
+# - name: Custom Link
+#   url: https://ojs.aaai.org/index.php/AAAI/article/view/16467
 
 url_pdf: 'https://ojs.aaai.org/index.php/AAAI/article/view/16467'
 url_code: 'https://github.com/ziwang1121/IEEE'
