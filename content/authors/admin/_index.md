@@ -36,7 +36,7 @@ profiles:
   - icon: brands/github
     url: https://github.com/ziwang1121
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/
+    url: [https://scholar.google.com/](https://scholar.google.com.hk/citations?user=F-ndT3UAAAAJ&hl=zh-CN)
 
 interests:
   - Computer Vision
