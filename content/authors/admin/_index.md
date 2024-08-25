@@ -116,7 +116,7 @@ awards:
   - title: 安徽大学品学兼优毕业生
     date: '2019-06'
     awarder: 安徽大学
-
+---
 ## About Me
 
 I received my B.Eng degrees in Digital Media Technology and finished the Master-Docter combined program in Computer Science and Technology from the School of Computer Science and Technology at Anhui University. 
