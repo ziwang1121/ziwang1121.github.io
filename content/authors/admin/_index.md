@@ -1,9 +1,9 @@
 ---
 # Display name
-title: 王梓
+title: Zi Wang (王梓)
 
 # Name pronunciation (optional)
-name_pronunciation: Zi Wang
+name_pronunciation: 
 
 # Full name (for SEO)
 first_name: Zi
