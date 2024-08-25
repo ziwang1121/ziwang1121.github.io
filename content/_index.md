@@ -52,8 +52,9 @@ sections:
     id: news
     content:
       title: Recent News
-      subtitle: test news subtitle
-      text: 'here is the text'
+      subtitle: ""
+      text: 'here is the text1'
+      text: 'here is the text2'
 
   - block: cta-card
     demo: true # Only display this section in the Hugo Blox Builder demo site
