@@ -6,7 +6,7 @@ title: 'Robust multi-modality person re-identification'
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - Aihua Zheng
-  - *Zi Wang*
+  - Zi Wang
   - Zihan Chen
   - Chenglong Li
   - Jin Tang
