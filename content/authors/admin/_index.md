@@ -61,26 +61,6 @@ work:
     date_end: ''
 
 
-# Awards.
-#   Add/remove as many awards below as you like.
-#   Only `title`, `awarder`, and `date` are required.
-#   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
-awards:
-  - title: 安徽大学优秀毕业生
-    date: '2024-06'
-    awarder: 安徽大学
-  - title: 安徽省互联网+大赛产业命题赛道安徽省银奖（团队负责人）
-    date: '2023-09'
-    awarder: 安徽省教育厅
-  - title: 安徽省研究生“创新创业之星”
-    date: '2022-12'
-    awarder: 安徽省教育厅
-  - title: 安徽省大学生摄影作品大赛二等奖
-    date: '2020-12'
-    awarder: 安徽省教育厅
-  - title: 安徽大学品学兼优毕业生
-    date: '2019-06'
-    awarder: 安徽大学
 ---
 
 ## About Me
