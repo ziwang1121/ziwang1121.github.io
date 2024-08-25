@@ -20,7 +20,7 @@ date: ''
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
-publishDate: ''
+publishDate: '2021-05-18'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -36,8 +36,6 @@ abstract: To avoid the illumination limitation in visible person re-identificati
 # Summary. An optional shortened abstract.
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
-tags:
-  - Multi-modal Person Re-identification
 
 # Display this page in the Featured widget?
 featured: False
@@ -47,7 +45,7 @@ featured: False
 # - name: Custom Link
 #   url: https://ojs.aaai.org/index.php/AAAI/article/view/16467
 
-url_pdf: 'https://ojs.aaai.org/index.php/AAAI/article/view/16467'
+url_pdf: 'https://ziwang1121.github.io/publication/conference-paper/AAAI2021.pdf'
 url_code: 'https://github.com/ziwang1121/IEEE'
 url_dataset: 'https://drive.google.com/file/d/1ZUGsaMpv354a7ceHYs2UtYMWGPNTUYK2/view?usp=drive_link'
 url_poster: ''
@@ -79,12 +77,4 @@ projects:
 slides: ""
 ---
 
-{{% callout note %}}
-Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
 
-{{% callout note %}}
-Create your slides in Markdown - click the _Slides_ button to check out the example.
-{{% /callout %}}
-
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
