@@ -3,7 +3,7 @@
 title: Zi Wang (王梓)
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: 
 
 # Full name (for SEO)
 first_name: Zi
@@ -101,34 +101,24 @@ skills:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
-    icon: coursera
-    summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
-    summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
-    summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
----
+  - title: 安徽大学优秀毕业生
+    date: '2024-06'
+    awarder: 安徽大学
+  - title: 安徽省互联网+大赛产业命题赛道安徽省银奖（团队负责人）
+    date: '2023-09'
+    awarder: 安徽省教育厅
+  - title: 安徽省研究生“创新创业之星”
+    date: '2022-12'
+    awarder: 安徽省教育厅
+  - title: 安徽省大学生摄影作品大赛二等奖
+    date: '2020-12'
+    awarder: 安徽省教育厅
+  - title: 安徽大学品学兼优毕业生
+    date: '2019-06'
+    awarder: 安徽大学
 
 ## About Me
 
 I received my B.Eng degrees in Digital Media Technology and finished the Master-Docter combined program in Computer Science and Technology from the School of Computer Science and Technology at Anhui University. 
+
 I am currently working at the School of Biomedical Engineering, at Anhui Medical University. I am primarily engaged in research on computer vision, medical image processing, and multi-modal learning.
