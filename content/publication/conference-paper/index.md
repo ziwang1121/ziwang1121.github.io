@@ -16,11 +16,11 @@ author_notes:
   - 'Equal contribution'
   - 'Equal contribution'
 
-date: '2013-07-01T00:00:00Z'
+date: ''
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2017-01-01T00:00:00Z'
+publishDate: ''
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -31,7 +31,7 @@ publication_types: ['paper-conference']
 publication: In *Proceedings of the AAAI Conference on Artificial Intelligence 2021*
 publication_short: In *AAAI 2021*
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: To avoid the illumination limitation in visible person re-identification (Re-ID) and the heterogeneous issue in cross-modality Re-ID, we propose to utilize complementary advantages of multiple modalities including visible (RGB), near infrared (NI) and thermal infrared (TI) ones for robust person Re-ID. A novel progressive fusion network is designed to learn effective multi-modal features from single to multiple modalities and from local to global views. Our method works well in diversely challenging scenarios even in the presence of missing modalities. Moreover, we contribute a comprehensive benchmark dataset, RGBNT201, including 201 identities captured from various challenging conditions, to facilitate the research of RGB-NI-TI multi-modality person Re-ID. Comprehensive experiments on RGBNT201 dataset comparing to the state-of-the-art methods demonstrate the contribution of multi-modality person Re-ID and the effectiveness of the proposed approach, which launch a new benchmark and a new baseline for multi-modality person Re-ID.
 
 # Summary. An optional shortened abstract.
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -40,12 +40,12 @@ tags:
   - Multi-modal Person Re-identification
 
 # Display this page in the Featured widget?
-featured: true
+featured: False
 
 # Custom links (uncomment lines below)
-# links:
-# - name: Custom Link
-#   url: http://example.org
+ links:
+ - name: Custom Link
+   url: https://ojs.aaai.org/index.php/AAAI/article/view/16467
 
 url_pdf: 'https://ojs.aaai.org/index.php/AAAI/article/view/16467'
 url_code: 'https://github.com/ziwang1121/IEEE'
@@ -69,14 +69,14 @@ image:
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
 projects:
-  - example
+  - []
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: example
+slides: ""
 ---
 
 {{% callout note %}}
