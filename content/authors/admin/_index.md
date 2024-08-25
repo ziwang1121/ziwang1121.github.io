@@ -1,9 +1,9 @@
 ---
 # Display name
-title: Zi Wang (王梓)
+title: 王梓
 
 # Name pronunciation (optional)
-name_pronunciation: 
+name_pronunciation: Zi Wang
 
 # Full name (for SEO)
 first_name: Zi
@@ -20,7 +20,7 @@ superuser: true
 highlight_name: False
 
 # Role/position/tagline
-role: Lecturer （校聘副教授）
+role: Lecturer (校聘副教授)
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
