@@ -91,4 +91,6 @@ awards:
 
 I received my B.Eng degrees in Digital Media Technology and finished the Master-Docter combined program in Computer Science and Technology from the School of Computer Science and Technology at Anhui University. 
 
-I am currently working at the School of Biomedical Engineering, at Anhui Medical University. I am primarily engaged in research on computer vision, medical image processing, and multi-modal learning.
+I work at the School of Biomedical Engineering, at Anhui Medical University. I am primarily engaged in research on computer vision, medical image processing, and multi-modal learning.
+
+I am a reviewer for top international journals and conferences such as IJCV, TIP, TNNLS, CVPR, AAAI, IJCB, etc.
