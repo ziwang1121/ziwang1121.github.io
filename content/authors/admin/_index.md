@@ -61,17 +61,17 @@ work:
     date_end: ''
     
 awards:
-  - title: Neural Networks and Deep Learning
-    date: '2023-11-25'
-    awarder: Coursera
+  - title: '安徽省研究生创新创业之星'
+    date: '2022-12-01'
+    awarder: 安徽省教育厅
 
-  - title: Blockchain Fundamentals
-    date: '2023-07-01'
-    awarder: edX
+  - title: '安徽省大学生摄影作品大赛摄影大赛省二等奖'
+    date: '2020-12-01'
+    awarder: 安徽省教育厅
     
-  - title: 'Object-Oriented Programming in R'
-    date: '2023-01-21'
-    awarder: datacamp
+  - title: '安徽大学品学兼优毕业生'
+    date: '2019-06-01'
+    awarder: 安徽大学
     
 ---
 
