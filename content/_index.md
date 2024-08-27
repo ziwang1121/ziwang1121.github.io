@@ -33,7 +33,7 @@ sections:
       text: |-
         I am a lecturer in the School of Biomedical Engineering, at Anhui Medical University. I am primarily engaged in research on computer vision, medical image processing, and multi-modal learning.
 
-        Whether you are an undergraduate, graduate student, or scientific researcher, if you are interested in my research, please feel free to contact me (ziwang1121@foxmail.com) for cooperation 😃
+        Whether you are an undergraduate, graduate student, or scientific researcher, if you are interested in my research, please feel free to contact me (ziwang1121🌀foxmail.com) for cooperation 😃
     
     design:
       columns: '1'
