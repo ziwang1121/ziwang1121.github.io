@@ -270,9 +270,10 @@ tr:hover {
 
 /* 折叠区域样式 */
 details summary {
-    font-size: 25px;
+    font-size: 24px;
     font-weight: bold;
     cursor: pointer;
+    text-align: center;
     margin-top: 20px;
     margin-bottom: 0px;
     padding: 0px 0; /* 保证折叠标题上下间距适中 */
@@ -384,6 +385,7 @@ details div .divider-thin {
     details summary {
     font-size: 21px;
     font-weight: bold;
+    text-align: center;
     cursor: pointer;
     margin-top: 12px;
     margin-bottom: 0px;
