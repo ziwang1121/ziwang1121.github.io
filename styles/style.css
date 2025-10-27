@@ -70,7 +70,7 @@ body {
     justify-content: left;
     align-items: left;
     flex-direction: column;
-    margin-top: 80px;
+    margin-top: 50px;
     padding: 40px;
     max-width: 800px;
     margin-left: auto;
@@ -82,7 +82,7 @@ body {
 .profile-section {
     display: flex;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
 .profile {
@@ -93,7 +93,7 @@ body {
 .profile-image {
     width: 100px;
     height: 100px;
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
 .profile-image img {
@@ -145,9 +145,7 @@ section a:hover {
 
 /* 联系信息部分 */
 .contact-info {
-    display: flex;
     align-items: center;
-    gap: 60px;
 }
 
 .contact-info a {
@@ -293,7 +291,7 @@ tr:hover {
 
     .content {
         padding: 20px;
-        margin-top: 70px;
+        margin-top: 30px;
         max-width: 600px;
     }
 
@@ -316,7 +314,6 @@ tr:hover {
     }
 
     .contact-info {
-        gap: 30px;
         flex-direction: column;
     }
 
