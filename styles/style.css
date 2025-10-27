@@ -385,7 +385,7 @@ details div .divider-thin {
     font-size: 21px;
     font-weight: bold;
     cursor: pointer;
-    margin-top: 16px;
+    margin-top: 14px;
     margin-bottom: 0px;
     padding: 0px 0; /* 保证折叠标题上下间距适中 */
 }
