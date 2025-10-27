@@ -17,30 +17,29 @@ body {
     position: fixed;
     left: 0;
     top: 0;
-    width: 100%;  /* 标签栏占满顶部宽度 */
-    height: 60px; /* 设置标签栏的高度 */
+    width: 100%;
+    height: 60px;
     background-color: white;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    padding: 10px 0;  /* 上下内边距 */
-    display: flex;  /* 使用flex布局 */
-    justify-content: center;  /* 横向居中对齐 */
-    align-items: center;  /* 垂直居中对齐 */
-    z-index: 1000; /* 确保标签栏在顶部 */
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
 }
 
-/* 2. 调整 .sidebar ul 和 .sidebar li 样式 */
 .sidebar ul {
     list-style: none;
     padding: 0;
-    display: flex;  /* 横向排列标签 */
-    gap: 30px;  /* 标签之间的间距 */
+    display: flex;
+    gap: 30px;
     margin: 0;
 }
 
 .sidebar li {
-    display: flex;  /* 使用 flex 布局 */
-    align-items: center;  /* 垂直居中对齐 */
-    justify-content: center;  /* 水平居中对齐 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 8px 12px;
     border-radius: 4px;
     transition: background 0.3s;
@@ -52,7 +51,6 @@ body {
 
 .sidebar li.active {
     background-color: var(--primary-color);
-    font-weight: bold;  /* 设置加粗 */
 }
 
 .sidebar li.active a {
@@ -63,24 +61,22 @@ body {
     color: var(--primary-color);
     text-decoration: none;
     font-size: 20px;
-    text-align: center;  /* 文字居中对齐 */
+    text-align: center;
 }
 
 /* 主内容区 */
 .content {
     display: flex;
-    justify-content: center; /* 水平居中 */
-    align-items: center; /* 垂直居中 */
-    flex-direction: column; /* 如果你希望内容在垂直方向排列 */
-    margin-top: 80px; /* 给正文部分顶部留出空间，使其不被标签栏遮挡 */
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+    margin-top: 80px;
     padding: 40px;
     max-width: 800px;
-    margin-left: auto;  /* 自动左右边距 */
-    margin-right: auto; /* 自动左右边距 */
-    width: 100%;  /* 确保宽度适应父容器 */
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
-
-/* 其他共用样式... */
 
 /* 个人信息部分 */
 .profile-section {
@@ -104,12 +100,11 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
-
 }
 
 .profile-info h2 {
     margin: 0;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .divider-thin {
@@ -128,39 +123,31 @@ body {
 }
 
 /* 基本信息部分 */
-/* 标题顶格 */
 section h2 {
     color: #0e60b3;
     text-align: left;
-    margin-bottom: 10px;  /* 控制标题和内容之间的间距 */
+    margin-bottom: 10px;
 }
 
-/* 内容空两格开始 */
 section p {
-    width: 100%;
-    /* text-indent: 2em;  设置段落内容首行缩进两格 */
-    font-size: 16px;   /* 可以根据需要调整字体大小 */
-    line-height: 1.5;  /* 调整行间距 */
+    font-size: 16px;
+    line-height: 1.5;
 }
-
-
 
 section a {
-    text-indent: 2em;  /* 设置段落内容首行缩进两格 */
     color: #1abc9c;
     text-decoration: none;
-    /* margin-bottom: 30px; */
 }
 
 section a:hover {
     text-decoration: underline;
 }
 
-/* 联系信息部分，水平排列并调整间距 */
+/* 联系信息部分 */
 .contact-info {
-    display: flex;                  /* 使用flexbox进行布局 */
-    align-items: center;            /* 垂直居中对齐 */
-    gap: 60px;                      /* 控制项目之间的间距，单位可以根据需要调整 */
+    display: flex;
+    align-items: center;
+    gap: 60px;
 }
 
 .contact-info a {
@@ -172,79 +159,72 @@ section a:hover {
     text-decoration: underline;
 }
 
-
 /* 表格样式 */
 table {
     width: 100%;
-    border-collapse: collapse;  /* 合并表格边框 */
-    margin-bottom: 20px;         /* 表格底部间距 */
+    border-collapse: collapse;
+    margin-bottom: 20px;
 }
 
 th, td {
     padding: 10px;
     text-align: left;
-    border: 1px solid #ddd;     /* 设置边框 */
+    border: 1px solid #ddd;
 }
 
 th {
-    background-color: #f4f4f4;  /* 设置表头背景色 */
-    font-weight: bold;           /* 设置表头加粗 */
+    background-color: #f4f4f4;
+    font-weight: bold;
 }
 
 tr:nth-child(even) {
-    background-color: #f9f9f9;  /* 设置偶数行的背景色 */
+    background-color: #f9f9f9;
 }
 
 tr:hover {
-    background-color: #f1f1f1;  /* 设置鼠标悬停时的行背景色 */
+    background-color: #f1f1f1;
 }
 
 /* Paper Item样式 */
 .paper-item {
-    margin-bottom: 20px;  /* 项目之间的间距 */
+    margin-bottom: 20px;
 }
 
 .paper-date {
     font-size: 14px;
-    color: #888;         /* 日期文字颜色 */
-    margin-right: 10px;   /* 日期和标题之间的间距 */
+    color: #888;
+    margin-right: 10px;
 }
 
 .paper-title {
     font-size: 14px;
-    font-weight: bold;    /* 论文标题加粗 */
-    color: #1abc9c;       /* 论文标题颜色 */
-    text-decoration: none; /* 取消标题的下划线 */
+    font-weight: bold;
+    color: #1abc9c;
+    text-decoration: none;
 }
 
 .paper-title:hover {
-    text-decoration: underline; /* 鼠标悬停时加下划线 */
+    text-decoration: underline;
 }
 
 .github-link {
     font-size: 16px;
     margin-left: 15px;
-    color: #333;          /* GitHub链接颜色 */
-    text-decoration: none; /* 取消链接下划线 */
+    color: #333;
+    text-decoration: none;
 }
 
 .github-link:hover {
-    color: #1abc9c;       /* GitHub链接悬停时的颜色 */
+    color: #1abc9c;
 }
-
-
-
 
 /* 图片容器样式 */
-/* 图片容器 */
 .images-container {
     display: flex;
-
-    align-items: center;      /* 纵向居中 */
+    align-items: center;
     gap: 10px;
-    flex-wrap: wrap;          /* 如果图片数量过多，换行 */
+    flex-wrap: wrap;
 }
-
 
 .image-wrapper {
     position: relative;
@@ -254,9 +234,7 @@ tr:hover {
 .image {
     max-width: 100%;
     height: auto;
-    /* border-radius: 8px; */
     transition: transform 0.3s ease;
-    
 }
 
 /* 显示按钮样式 */
@@ -269,7 +247,6 @@ tr:hover {
     background-color: #f9f9f9;
     color: rgb(94, 94, 94);
     border: none;
-    /* border-radius: 4px; */
     cursor: pointer;
     transition: all 0.3s ease;
 }
@@ -295,6 +272,72 @@ tr:hover {
 .zoomed-image {
     max-width: 90%;
     max-height: 90%;
-    /* border-radius: 8px; */
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+}
+
+/* 移动设备样式调整 */
+@media (max-width: 768px) {
+    .sidebar ul {
+        gap: 15px;
+    }
+
+    .sidebar a {
+        font-size: 16px;
+    }
+
+    .content {
+        padding: 20px;
+        margin-top: 70px;
+        max-width: 600px;
+    }
+
+    .profile-image {
+        width: 90px;
+        height: 90px;
+    }
+
+    .profile-info h2 {
+        font-size: 18px;
+    }
+
+    table th, table td {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .contact-info {
+        gap: 30px;
+        flex-direction: column;
+    }
+
+    .contact-info a {
+        font-size: 14px;
+    }
+
+    .sidebar {
+        height: 50px;
+        padding: 8px 0;
+    }
+    
+    body {
+        font-size: 14px;
+    }
+
+    .profile-info h1,
+    .profile-info h2 {
+        font-size: 18px;
+    }
+
+    .contact-info a {
+        font-size: 14px;
+    }
+
+    .content p {
+        font-size: 14px;
+    }
+
+    .paper-title,
+    .github-link {
+        font-size: 14px;
+    }
 }
