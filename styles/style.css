@@ -267,6 +267,39 @@ tr:hover {
     z-index: 1000;
 }
 
+
+/* 折叠区域样式 */
+details summary {
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    padding: 0px 0; /* 保证折叠标题上下间距适中 */
+}
+
+details {
+    margin-bottom: 0px;
+}
+
+details[open] summary {
+    color: #0e60b3; /* 折叠展开时标题变色 */
+}
+
+details div {
+    margin-top: 0px;
+    padding-left: 0px; /* 保证折叠区域内部与边缘有一定距离 */
+}
+
+details div .paper-item {
+    margin-bottom: 10px; /* 项目之间的间距 */
+}
+
+details div .divider-thin {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
 .social-links {
     display: flex;                /* 横向排列 */
     gap: 40px;                    /* 设置链接之间的间距 */
@@ -347,37 +380,14 @@ tr:hover {
     .github-link {
         font-size: 14px;
     }
-}
 
-
-/* 折叠区域样式 */
-details summary {
-    font-size: 25px;
+    details summary {
+    font-size: 20.5px;
     font-weight: bold;
     cursor: pointer;
-    margin-top: 20px;
+    margin-top: 18px;
     margin-bottom: 0px;
     padding: 0px 0; /* 保证折叠标题上下间距适中 */
 }
-
-details {
-    margin-bottom: 0px;
 }
 
-details[open] summary {
-    color: #0e60b3; /* 折叠展开时标题变色 */
-}
-
-details div {
-    margin-top: 0px;
-    padding-left: 0px; /* 保证折叠区域内部与边缘有一定距离 */
-}
-
-details div .paper-item {
-    margin-bottom: 10px; /* 项目之间的间距 */
-}
-
-details div .divider-thin {
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
