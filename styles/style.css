@@ -382,10 +382,10 @@ details div .divider-thin {
     }
 
     details summary {
-    font-size: 20.5px;
+    font-size: 18px;
     font-weight: bold;
     cursor: pointer;
-    margin-top: 18px;
+    margin-top: 20px;
     margin-bottom: 0px;
     padding: 0px 0; /* 保证折叠标题上下间距适中 */
 }
