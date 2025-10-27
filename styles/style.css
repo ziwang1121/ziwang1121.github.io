@@ -278,11 +278,11 @@ tr:hover {
 /* 移动设备样式调整 */
 @media (max-width: 768px) {
     .sidebar ul {
-        gap: 15px;
+        gap: 4px; /* 标签之间的间距减小 */
     }
 
     .sidebar a {
-        font-size: 16px;
+        font-size: 14px;  /* 缩小标签页的字体 */
     }
 
     .content {
@@ -305,6 +305,10 @@ tr:hover {
         font-size: 14px;
     }
 
+    .sidebar li {
+        padding: 6px 10px; /* 减小标签的内边距 */
+    }
+
     .contact-info {
         gap: 30px;
         flex-direction: column;
@@ -315,10 +319,10 @@ tr:hover {
     }
 
     .sidebar {
-        height: 50px;
-        padding: 8px 0;
+        height: 50px;  /* 减小标签栏高度 */
+        padding: 5px 0;  /* 减少标签栏的上下内边距 */
     }
-    
+
     body {
         font-size: 14px;
     }
