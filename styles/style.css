@@ -17,20 +17,30 @@ body {
     position: fixed;
     left: 0;
     top: 0;
-    width: 200px;
-    height: 100vh;
+    width: 100%;  /* 标签栏占满顶部宽度 */
+    height: 60px; /* 设置标签栏的高度 */
     background-color: white;
-    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
-    padding: 30px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;  /* 上下内边距 */
+    display: flex;  /* 使用flex布局 */
+    justify-content: center;  /* 横向居中对齐 */
+    align-items: center;  /* 垂直居中对齐 */
+    z-index: 1000; /* 确保标签栏在顶部 */
 }
 
+/* 2. 调整 .sidebar ul 和 .sidebar li 样式 */
 .sidebar ul {
     list-style: none;
     padding: 0;
+    display: flex;  /* 横向排列标签 */
+    gap: 30px;  /* 标签之间的间距 */
+    margin: 0;
 }
 
 .sidebar li {
-    margin: 15px 0;
+    display: flex;  /* 使用 flex 布局 */
+    align-items: center;  /* 垂直居中对齐 */
+    justify-content: center;  /* 水平居中对齐 */
     padding: 8px 12px;
     border-radius: 4px;
     transition: background 0.3s;
@@ -53,13 +63,21 @@ body {
     color: var(--primary-color);
     text-decoration: none;
     font-size: 20px;
+    text-align: center;  /* 文字居中对齐 */
 }
 
 /* 主内容区 */
 .content {
-    margin-left: 240px;
+    display: flex;
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中 */
+    flex-direction: column; /* 如果你希望内容在垂直方向排列 */
+    margin-top: 80px; /* 给正文部分顶部留出空间，使其不被标签栏遮挡 */
     padding: 40px;
     max-width: 800px;
+    margin-left: auto;  /* 自动左右边距 */
+    margin-right: auto; /* 自动左右边距 */
+    width: 100%;  /* 确保宽度适应父容器 */
 }
 
 /* 其他共用样式... */
